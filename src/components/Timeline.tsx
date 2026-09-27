@@ -6,6 +6,7 @@ type Props = {
   accent?: string;
 };
 
+
 export default function Timeline({ items }: Props) {
   return (
     <div className="relative">

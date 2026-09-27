@@ -8,6 +8,7 @@ type Props = {
   center?: boolean;
 };
 
+
 export default function SectionHeading({ eyebrow, title, subtitle, center = true }: Props) {
   return (
     <motion.div

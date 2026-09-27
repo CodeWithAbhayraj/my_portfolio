@@ -142,7 +142,7 @@ export const projects: Project[] = [
   title: 'ResumeAI - ATS Scanner',
   description:
     'An AI-powered resume analyzer that scans resumes for ATS compatibility, identifies missing keywords, and provides actionable suggestions to improve job application success.',
-  image: '/public/assets/resume-ai.png',
+  image: '/assets/resume-ai.png',
   tech: ['React', 'JavaScript', 'AI', 'Tailwind CSS'],
   features: [
     'ATS resume scanning',

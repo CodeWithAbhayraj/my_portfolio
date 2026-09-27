@@ -138,12 +138,12 @@ export const projects: Project[] = [
   },
 
 
-  {
+ {
   title: 'ResumeAI - ATS Scanner',
   description:
     'An AI-powered resume analyzer that scans resumes for ATS compatibility, identifies missing keywords, and provides actionable suggestions to improve job application success.',
   image:
-    'https://images.pexels.com/photos/7972324/pexels-photo-7972324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    'https://images.pexels.com/photos/5905445/pexels-photo-5905445.jpeg?auto=compress&cs=tinysrgb&w=1200',
   tech: ['React', 'JavaScript', 'AI', 'Tailwind CSS'],
   features: [
     'ATS resume scanning',

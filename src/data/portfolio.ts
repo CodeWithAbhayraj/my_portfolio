@@ -136,18 +136,27 @@ export const projects: Project[] = [
     demo: '#',
     category: 'Backend',
   },
+
+
   {
-    title: 'HODSM',
-    description:
-      'A full-stack application to manage students, courses, attendance and results with role-based access for admins and faculty.',
-    image:
-      'https://images.pexels.com/photos/7972324/pexels-photo-7972324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tech: ['Java', 'Spring Boot', 'React', 'MySQL'],
-    features: ['Role-based access', 'CRUD modules', 'Search & filter', 'Export reports'],
-    github: 'https://github.com/your-username/student-management',
-    demo: '#',
-    category: 'Full Stack',
-  },
+  title: 'ResumeAI - ATS Scanner',
+  description:
+    'An AI-powered resume analyzer that scans resumes for ATS compatibility, identifies missing keywords, and provides actionable suggestions to improve job application success.',
+  image:
+    'https://images.pexels.com/photos/7972324/pexels-photo-7972324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  tech: ['React', 'JavaScript', 'AI', 'Tailwind CSS'],
+  features: [
+    'ATS resume scanning',
+    'Keyword analysis',
+    'Resume score',
+    'Improvement suggestions',
+  ],
+  github: 'https://github.com/CodeWithAbhayraj/ResumeAI-Frontend',
+  demo: 'https://codewithabhayraj.github.io/ResumeAI-Frontend/',
+  category: 'AI / Full Stack',
+},
+
+
   {
     title: 'Tailor Portfolio Website',
     description:
@@ -160,18 +169,25 @@ export const projects: Project[] = [
     demo: 'https://shitalfashion.vercel.app/',
     category: 'Frontend',
   },
-  {
-    title: 'E-Commerce Project',
-    description:
-      'A modular e-commerce platform with product catalog, cart, checkout, and an admin dashboard for inventory and orders.',
-    image:
-      'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tech: ['Java', 'Spring Boot', 'React', 'MySQL'],
-    features: ['Product catalog', 'Cart & checkout', 'Admin dashboard', 'Order tracking'],
-    github: 'https://github.com/your-username/ecommerce-project',
-    demo: '#',
-    category: 'Full Stack',
-  },
+
+{
+  title: 'EstateHub - Real Estate Platform',
+  description:
+    'A full-stack real estate platform for property listings, seller management, buyer inquiries, property visits, lead management, and admin verification.',
+  image:
+    'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'JWT'],
+  features: [
+    'Property listing & search',
+    'Seller & buyer management',
+    'Admin property verification',
+    'Lead & visit management',
+  ],
+  github: 'https://github.com/CodeWithAbhayraj/EstateHub-Deployement',
+  demo: 'https://estatehub-frontend-4edb.onrender.com/',
+  category: 'Full Stack',
+},
+
 ];
 
 export const projectFilters = ['All', 'Backend', 'Frontend', 'Full Stack'];

@@ -137,6 +137,7 @@ export const projects: Project[] = [
     category: 'Backend',
   },
 
+  
 
 {
   title: 'ResumeAI - ATS Scanner',

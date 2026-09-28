@@ -15,6 +15,7 @@ import Resume from '@/components/sections/Resume';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
 
+
 export default function App() {
   const [loading, setLoading] = useState(true);
 

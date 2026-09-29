@@ -7,6 +7,7 @@ export default function Counter({ value, suffix = '', duration = 1600 }: Props) 
   const ref = useRef<HTMLSpanElement>(null);
   const started = useRef(false);
 
+  
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
